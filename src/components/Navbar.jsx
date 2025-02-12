@@ -63,7 +63,7 @@ const Navbar = () => {
             onClick={(e) => handleNavClick(e, 'home')}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            className="text-2xl font-bold text-white flex-shrink-0"
+            className="text-2xl font-bold text-white flex-shrink-0 pl-[20px] lg:pl-0"
           >
             Tushar<span className="text-[#ff6b00]">.</span>
           </motion.a>
@@ -88,7 +88,7 @@ const Navbar = () => {
           {/* Mobile Menu Button */}
           <div className="block md:hidden">
             <button
-              className="text-white p-2 hover:text-[#ff6b00] transition-colors pr-[40px]"
+              className="text-white p-2 hover:text-[#ff6b00] transition-colors md:pr-[40px] pr-[30px]"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               aria-label="Toggle menu"
             >
