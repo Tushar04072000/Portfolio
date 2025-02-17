@@ -98,7 +98,7 @@ const Contact = () => {
               viewport={{ once: true }}
             >
               <FaInstagram className="text-2xl text-[#ff6b00]" />
-              <span>@tushar_patil_04</span>
+              <span>@tushar_patil__04</span>
             </motion.a>
 
             <motion.a
