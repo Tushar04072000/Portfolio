@@ -102,7 +102,7 @@ const Contact = () => {
             </motion.a>
 
             <motion.a
-              href="https://www.linkedin.com/in/tushar-patil-04072000/"
+              href="https://www.linkedin.com/in/tushar-patil-2b5500229/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-3 p-4 bg-zinc-900 rounded-lg hover:bg-zinc-800 transition-colors"
