@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { useState, useRef, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
+import { FaEnvelope, FaInstagram, FaLinkedin, FaPhone } from 'react-icons/fa';
 
 const Contact = () => {
   const form = useRef();
@@ -33,7 +34,7 @@ const Contact = () => {
       form.current,
       'Peg0NHUp9tErSQqKb' // Replace with your public key
     )
-      .then((result) => {
+      .then((result) => {  
         setStatus('success');
         setFormData({
           from_name: '',
@@ -59,6 +60,62 @@ const Contact = () => {
           className="max-w-2xl mx-auto"
         >
           <h2 className="text-4xl font-bold text-center mb-8">Get In Touch</h2>
+          
+          {/* Contact Information */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+            <motion.a
+              href="mailto:tusharpatil.tp02@gmail.com"
+              className="flex items-center space-x-3 p-4 bg-zinc-900 rounded-lg hover:bg-zinc-800 transition-colors"
+              whileHover={{ scale: 1.02 }}
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+            >
+              <FaEnvelope className="text-2xl text-[#ff6b00]" />
+              <span>tusharpatil.tp02@gmail.com</span>
+            </motion.a>
+
+            <motion.a
+              href="tel:+919011397974"
+              className="flex items-center space-x-3 p-4 bg-zinc-900 rounded-lg hover:bg-zinc-800 transition-colors"
+              whileHover={{ scale: 1.02 }}
+              initial={{ opacity: 0, x: 20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+            >
+              <FaPhone className="text-2xl text-[#ff6b00]" />
+              <span>+91 9011397974</span>
+            </motion.a>
+
+            <motion.a
+              href="https://www.instagram.com/tushar_patil_04/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center space-x-3 p-4 bg-zinc-900 rounded-lg hover:bg-zinc-800 transition-colors"
+              whileHover={{ scale: 1.02 }}
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+            >
+              <FaInstagram className="text-2xl text-[#ff6b00]" />
+              <span>@tushar_patil_04</span>
+            </motion.a>
+
+            <motion.a
+              href="https://www.linkedin.com/in/tushar-patil-04072000/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center space-x-3 p-4 bg-zinc-900 rounded-lg hover:bg-zinc-800 transition-colors"
+              whileHover={{ scale: 1.02 }}
+              initial={{ opacity: 0, x: 20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+            >
+              <FaLinkedin className="text-2xl text-[#ff6b00]" />
+              <span>Tushar Patil</span>
+            </motion.a>
+          </div>
+
           <form ref={form} onSubmit={handleSubmit} className="space-y-6">
             <div>
               <label htmlFor="from_name" className="block text-sm font-medium mb-2">
