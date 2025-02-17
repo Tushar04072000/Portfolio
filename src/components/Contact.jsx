@@ -88,7 +88,7 @@ const Contact = () => {
             </motion.a>
 
             <motion.a
-              href="https://www.instagram.com/tushar_patil_04/"
+              href="https://www.instagram.com/tushar_patil__04/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-3 p-4 bg-zinc-900 rounded-lg hover:bg-zinc-800 transition-colors"
