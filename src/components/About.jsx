@@ -21,13 +21,21 @@ const About = () => {
               className="space-y-4 text-left"
             >
               <p className="text-lg">
-                I'm a passionate software developer with a keen eye for creating elegant solutions
-                to complex problems. With expertise in modern web technologies and a strong foundation
-                in software engineering principles, I strive to build applications that make a difference.
-              </p>
-              <p className="text-lg">
-                When I'm not coding, you can find me exploring new technologies, contributing to
-                open-source projects, or sharing my knowledge with the developer community.
+                <p>Hello! I’m <strong>Tushar Tanaji Patil</strong>, a passionate <strong>Software Developer</strong>, dedicated to creating innovative and efficient solutions that bring ideas to life. With a solid background in software development, I specialize in building scalable applications, writing clean and maintainable code, and solving complex technical challenges. Whether it's developing robust back-end systems, crafting intuitive front-end interfaces, or optimizing performance, I approach each project with a commitment to excellence.</p>
+
+    <p>I’m a detail-oriented, collaborative, and proactive developer who thrives on problem-solving and delivering results that exceed expectations. I believe in continuous learning to stay ahead in the ever-evolving tech landscape, and I’m always eager to take on new challenges that allow me to grow both technically and creatively.</p>
+
+    <p>Throughout my career, I’ve had the opportunity to work with various technologies and contribute to projects that have had a meaningful impact. This experience has honed my ability to work under pressure, meet deadlines, and adapt quickly to fast-paced environments.</p>
+
+    <p>When I’m not coding, I enjoy exploring new tech trends, solving puzzles, and honing my skills through side projects. If you're interested in collaborating or have a project in mind, feel free to reach out—I’d love to connect!</p>
+
+    <h2>Contact Information</h2>
+    <ul>
+        <li><strong>Phone:</strong> 9011397974</li>
+        <li><strong>Email:</strong> <a href="mailto:tusharpatil.tp02@gmail.com">tusharpatil.tp02@gmail.com</a></li>
+    </ul>
+
+    <p>Let’s make something great together!</p>
               </p>
             </motion.div>
             <motion.div
