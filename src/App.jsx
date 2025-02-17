@@ -7,6 +7,8 @@ import Hero from './components/Hero'
 import About from './components/About'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
+import Education from './components/Education'
+import Experience from './components/Experience'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -47,6 +49,8 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <Experience />
+      <Education />
       <Projects />
       <Contact />
     </main>
