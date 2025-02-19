@@ -1,0 +1,18 @@
+# robots.txt for Tushar Patil's Portfolio
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://portfolio-tushar04072000s-projects.vercel.app/sitemap.xml
+
+# Allow Google to crawl JavaScript and CSS
+Allow: *.js
+Allow: *.css
+Allow: *.jpg
+Allow: *.jpeg
+Allow: *.png
+Allow: *.gif
+Allow: *.svg
+
+# Optimize crawling rate
+Crawl-delay: 1
