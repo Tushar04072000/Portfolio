@@ -8,7 +8,7 @@ const Experience = () => {
       type: "Full Time",
       duration: "20 Nov 2023 - Present",
       description: "I am a passionate software developer working in Realsiren Technology Pvt Ltd. The skill sets I have are React, Next JS, Angular, HTML, CSS, Typescript, Javascript. I am an individual looking for better opportunities in upcoming years.",
-      skills: ["React", "Next.js", "Angular", "HTML", "CSS", "TypeScript", "JavaScript"]
+      skills: ['JavaScript', 'React', 'Angular', 'TypeScript', 'Tailwind CSS', 'Next js', 'PostgreSQL', 'MySQL', 'MongoDb', 'Express js', 'Graph QL', 'Nest js']
     },
     {
       company: "Hefshine Software Pvt Ltd, Pune",
