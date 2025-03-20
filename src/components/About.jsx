@@ -44,7 +44,7 @@ const About = () => {
               viewport={{ once: true }}
               className="grid grid-cols-2 gap-4"
             >
-              {['JavaScript', 'React', 'Angular', 'TypeScript', 'Tailwind CSS', 'Next js'].map((skill) => (
+              {['JavaScript', 'React', 'Angular', 'TypeScript', 'Tailwind CSS', 'Next js', PostgreSQL, MySQL, MongoDb, Express js, Graph QL, Nest js].map((skill) => (
                 <div
                   key={skill}
                   className="p-4 bg-gray-800 rounded-lg text-center hover:bg-[#ff6b00] hover:text-black transition-colors"
